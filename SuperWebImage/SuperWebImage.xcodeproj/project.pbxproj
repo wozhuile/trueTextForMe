@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD9137D81CE5697400C834C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137D71CE5697400C834C3 /* main.m */; };
+		FD9137DB1CE5697400C834C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137DA1CE5697400C834C3 /* AppDelegate.m */; };
+		FD9137DE1CE5697400C834C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137DD1CE5697400C834C3 /* ViewController.m */; };
+		FD9137E11CE5697400C834C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9137DF1CE5697400C834C3 /* Main.storyboard */; };
+		FD9137E31CE5697400C834C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9137E21CE5697400C834C3 /* Assets.xcassets */; };
+		FD9137E61CE5697400C834C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9137E41CE5697400C834C3 /* LaunchScreen.storyboard */; };
+		FD9137F01CE569DA00C834C3 /* SuperImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137EF1CE569DA00C834C3 /* SuperImageOperation.m */; };
+		FD9137F31CE56F5D00C834C3 /* SuperImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137F21CE56F5D00C834C3 /* SuperImageManager.m */; };
+		FD9137F61CE5724A00C834C3 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137F51CE5724A00C834C3 /* Base64.m */; };
+		FD9137F91CE5844000C834C3 /* UIImageView+SuperImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9137F81CE5844000C834C3 /* UIImageView+SuperImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD9137D31CE5697400C834C3 /* SuperWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9137D71CE5697400C834C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD9137D91CE5697400C834C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD9137DA1CE5697400C834C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD9137DC1CE5697400C834C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD9137DD1CE5697400C834C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD9137E01CE5697400C834C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9137E21CE5697400C834C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD9137E51CE5697400C834C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD9137E71CE5697400C834C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9137EE1CE569DA00C834C3 /* SuperImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperImageOperation.h; sourceTree = "<group>"; };
+		FD9137EF1CE569DA00C834C3 /* SuperImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperImageOperation.m; sourceTree = "<group>"; };
+		FD9137F11CE56F5D00C834C3 /* SuperImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperImageManager.h; sourceTree = "<group>"; };
+		FD9137F21CE56F5D00C834C3 /* SuperImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperImageManager.m; sourceTree = "<group>"; };
+		FD9137F41CE5724A00C834C3 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		FD9137F51CE5724A00C834C3 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		FD9137F71CE5844000C834C3 /* UIImageView+SuperImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SuperImage.h"; sourceTree = "<group>"; };
+		FD9137F81CE5844000C834C3 /* UIImageView+SuperImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SuperImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9137D01CE5697400C834C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD9137CA1CE5697400C834C3 = {
+			isa = PBXGroup;
+			children = (
+				FD9137D51CE5697400C834C3 /* SuperWebImage */,
+				FD9137D41CE5697400C834C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9137D41CE5697400C834C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9137D31CE5697400C834C3 /* SuperWebImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9137D51CE5697400C834C3 /* SuperWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				FD9137ED1CE5698000C834C3 /* SuperWeb */,
+				FD9137D91CE5697400C834C3 /* AppDelegate.h */,
+				FD9137DA1CE5697400C834C3 /* AppDelegate.m */,
+				FD9137DC1CE5697400C834C3 /* ViewController.h */,
+				FD9137DD1CE5697400C834C3 /* ViewController.m */,
+				FD9137DF1CE5697400C834C3 /* Main.storyboard */,
+				FD9137E21CE5697400C834C3 /* Assets.xcassets */,
+				FD9137E41CE5697400C834C3 /* LaunchScreen.storyboard */,
+				FD9137E71CE5697400C834C3 /* Info.plist */,
+				FD9137D61CE5697400C834C3 /* Supporting Files */,
+			);
+			path = SuperWebImage;
+			sourceTree = "<group>";
+		};
+		FD9137D61CE5697400C834C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9137D71CE5697400C834C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD9137ED1CE5698000C834C3 /* SuperWeb */ = {
+			isa = PBXGroup;
+			children = (
+				FD9137F41CE5724A00C834C3 /* Base64.h */,
+				FD9137F51CE5724A00C834C3 /* Base64.m */,
+				FD9137EE1CE569DA00C834C3 /* SuperImageOperation.h */,
+				FD9137EF1CE569DA00C834C3 /* SuperImageOperation.m */,
+				FD9137F11CE56F5D00C834C3 /* SuperImageManager.h */,
+				FD9137F21CE56F5D00C834C3 /* SuperImageManager.m */,
+				FD9137F71CE5844000C834C3 /* UIImageView+SuperImage.h */,
+				FD9137F81CE5844000C834C3 /* UIImageView+SuperImage.m */,
+			);
+			name = SuperWeb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9137D21CE5697400C834C3 /* SuperWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9137EA1CE5697400C834C3 /* Build configuration list for PBXNativeTarget "SuperWebImage" */;
+			buildPhases = (
+				FD9137CF1CE5697400C834C3 /* Sources */,
+				FD9137D01CE5697400C834C3 /* Frameworks */,
+				FD9137D11CE5697400C834C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperWebImage;
+			productName = SuperWebImage;
+			productReference = FD9137D31CE5697400C834C3 /* SuperWebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9137CB1CE5697400C834C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SuperWang;
+				TargetAttributes = {
+					FD9137D21CE5697400C834C3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FD9137CE1CE5697400C834C3 /* Build configuration list for PBXProject "SuperWebImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9137CA1CE5697400C834C3;
+			productRefGroup = FD9137D41CE5697400C834C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9137D21CE5697400C834C3 /* SuperWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9137D11CE5697400C834C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9137E61CE5697400C834C3 /* LaunchScreen.storyboard in Resources */,
+				FD9137E31CE5697400C834C3 /* Assets.xcassets in Resources */,
+				FD9137E11CE5697400C834C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9137CF1CE5697400C834C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9137DE1CE5697400C834C3 /* ViewController.m in Sources */,
+				FD9137DB1CE5697400C834C3 /* AppDelegate.m in Sources */,
+				FD9137D81CE5697400C834C3 /* main.m in Sources */,
+				FD9137F31CE56F5D00C834C3 /* SuperImageManager.m in Sources */,
+				FD9137F61CE5724A00C834C3 /* Base64.m in Sources */,
+				FD9137F91CE5844000C834C3 /* UIImageView+SuperImage.m in Sources */,
+				FD9137F01CE569DA00C834C3 /* SuperImageOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD9137DF1CE5697400C834C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9137E01CE5697400C834C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9137E41CE5697400C834C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9137E51CE5697400C834C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9137E81CE5697400C834C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD9137E91CE5697400C834C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9137EB1CE5697400C834C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zy.SuperWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD9137EC1CE5697400C834C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zy.SuperWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9137CE1CE5697400C834C3 /* Build configuration list for PBXProject "SuperWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9137E81CE5697400C834C3 /* Debug */,
+				FD9137E91CE5697400C834C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9137EA1CE5697400C834C3 /* Build configuration list for PBXNativeTarget "SuperWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9137EB1CE5697400C834C3 /* Debug */,
+				FD9137EC1CE5697400C834C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9137CB1CE5697400C834C3 /* Project object */;
+}
